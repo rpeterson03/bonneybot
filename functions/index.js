@@ -31,7 +31,7 @@ exports.dialogflowFirebaseFulfillment = functions.https.onRequest((req, res) => 
     }
     else{
 
-        phone_number = "+14805102384"
+        phone_number = "+1231231234";
         console.log("WARNING TEST PHONE NUMBER USED!!!")
     }
 
@@ -106,8 +106,6 @@ exports.dialogflowFirebaseFulfillment = functions.https.onRequest((req, res) => 
     // Call the handler with action type
     actionHandlers[action]();
 
-
-    //HELPER FUNCTIONS
 
     function updateUserPhone(userId) {
         //update the employee's phone number

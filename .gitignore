@@ -1,6 +1,7 @@
 .idea/
 appengine/
-functions/
+functions/node_modules
 .DS_Store
 *.log
 firebase.json
+functions/package-lock.json

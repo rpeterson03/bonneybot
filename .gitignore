@@ -1,0 +1,6 @@
+.idea/
+appengine/
+functions/
+.DS_Store
+*.log
+firebase.json
